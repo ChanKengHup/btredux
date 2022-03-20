@@ -1,0 +1,82 @@
+.bg__bt {
+    background-image: url(../../asset/img/video_23_game_oan_tu_ti/bgGame.png);
+    height: 130vh;
+    background-position: center;
+    background-size: cover;
+}
+.keobuabao {
+    padding-top: 20px;
+}
+.keobuabao img {
+    height: 150px;
+}
+.keobuabao h1 {
+    color: orange;
+    font-weight: 800;
+} 
+.keobuabao__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.keobuabao__img {
+	position: relative;
+	border:5px solid #45D994;
+	border-radius: .4em;
+    background: #fff;
+    width: 150px;
+    height: 150px;
+}
+
+.keobuabao__img:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+.keobuabao__img img {
+   
+    height: 100px;
+}
+.keobuabao__iron {
+    display: flex;
+    justify-content: space-around;
+
+}
+.keobuabao__iron__item {
+    background: #fff;
+    margin: 0 10px;
+    border-radius: 5px;
+    z-index: 11;
+    cursor: pointer;
+}
+.keobuabao__iron img{
+    height: 50px;
+}
+.ketqua {
+    position: relative;
+    bottom: 160px;
+    z-index: 10;
+}
+.ketqua p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 800;
+}
+.ketqua p span {
+    color: orange;
+}
+.ketqua button {
+    font-weight: 800;
+}

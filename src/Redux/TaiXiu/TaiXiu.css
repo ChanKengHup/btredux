@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Pony;
+    src: url(../../asset/font/Pony.ttf);
+}
+
+.bg-xucxac {
+    background-image: url(../../asset/img/video_19_game_xuc_xac/bgGame.png);
+    height: 100vh;
+    padding: 50px 0;
+    font-family: Pony;
+}
+.xucxac .btn {
+    font-size: 4rem;
+}
+.xucxac img {
+    width: 100px;
+    margin: 0 20px;
+}
+.result p {
+ font-size: 2.75rem;
+}
+.result button {
+    font-size: 2rem;
+}

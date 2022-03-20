@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Pony;
+    src: url(../../asset/font/Pony.ttf);
+}
+
+.gameTaiXiu {
+    background-image: url(../../asset/img/video_19_game_xuc_xac/bgGame.png);
+    height: 100vh;
+    padding: 50px 0;
+    font-family: Pony;
+}
+
+.gameTaiXiu img {
+    width: 100px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.gameTaiXiu .btn-info {
+    font-size: 4rem;
+}
+.gameTaiXiu .btn {
+    font-size: 4rem;
+}
+.gameTaiXiu p {
+    color: black;
+    font-size: 2rem;
+}
